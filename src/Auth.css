@@ -1,0 +1,45 @@
+
+.auth-container {
+    background-color: #20232a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #61dafb;
+    margin-bottom: 20px;
+}
+
+button {
+    width: -webkit-fill-available;
+    margin-bottom: 10px;
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+p {
+    color: #61dafb;
+}
+
+.account {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%; /* Adjust the width as needed */
+}
